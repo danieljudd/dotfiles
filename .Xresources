@@ -1,6 +1,6 @@
 xterm*font:     *-fixed-*-*-*-14-*
 xterm*selectToClipboard: true
-xterm*faceName: Ubuntu Mono
+xterm*faceName: Roboto Mono:style=Regular
 xterm*faceSize: 14
 xterm*renderFont: true
 xterm*VT100.Translations: #override \
