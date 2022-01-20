@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Dwm
+Comment=This session logs you into Dwm
+Exec=dwm
+TryExec=/usr/local/bin/dwm
+Icon=
+Type=Application
+
+# arch dir (e.g. lightdm+arch) = /usr/share/xsessions/
