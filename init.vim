@@ -3,19 +3,21 @@
 
 call plug#begin('C:\Users\Daniel\AppData\Local\nvim\autoload\plugged')
 Plug 'fatih/vim-go'
-Plug 'arcticicestudio/nord-vim'
+Plug 'dracula/vim'
 Plug 'itchyny/lightline.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'junegunn/goyo.vim'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 
-colorscheme nord
+colorscheme dracula
 syntax on
 filetype on
 set number
 set laststatus=2
 set guifont=Consolas:h18
+set spell
 " Allows clipboard pasting (shift+ins)
 set clipboard+=unnamedplus
 cmap <S-Insert> <C-R>+
