@@ -3,14 +3,15 @@
 
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
-Plug 'arcticicestudio/nord-vim'
+Plug 'dracula/vim'
 Plug 'itchyny/lightline.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'junegunn/goyo.vim'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 
-colorscheme nord
+colorscheme dracula
 syntax on
 filetype on
 set number
